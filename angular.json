@@ -31,11 +31,11 @@
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/styles.css"
+              "src/assets/css/style.css"
             ],
             "scripts": [ 
               "node_modules/jquery/dist/jquery.min.js",
-              "src/main.js"
+              "src/assets/js/main.js"
              ]
           },
           "configurations": {
