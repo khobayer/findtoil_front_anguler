@@ -43,11 +43,8 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
-<<<<<<< HEAD
-=======
 
 
 # Package File
 package-lock.json
 package.json
->>>>>>> origin/nayembabu
