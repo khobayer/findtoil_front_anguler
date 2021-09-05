@@ -31,11 +31,23 @@
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/assets/css/style.css"
+              "src/assets/css/style.css",
+              "src/assets/css/transitions.css",
+              "src/assets/css/responsive.css",
+              "node_modules/linearicons/dist/web-font/demo-files/demo.css"
             ],
             "scripts": [ 
               "node_modules/jquery/dist/jquery.min.js",
-              "src/assets/js/main.js"
+              "src/assets/js/main.js",
+              "src/assets/js/appear.js",
+              "src/assets/js/gmap3.js",
+              "src/assets/js/jquery.basictable.min.js",
+              "src/assets/js/jquery.hoverdir.js",
+              "src/assets/js/jquery-library.js",
+              "src/assets/js/jRate.js",
+              "src/assets/js/tilt.jquery.js",
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/linearicons/dist/web-font/demo-files/demo.js"
              ]
           },
           "configurations": {
