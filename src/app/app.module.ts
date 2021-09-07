@@ -14,6 +14,7 @@ import * as $ from 'jquery';
 */
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { FooterComponent } from './footer/footer.component';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    routingComponent
+    routingComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
