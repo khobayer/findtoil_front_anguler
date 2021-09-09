@@ -6,14 +6,55 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/khobayer/findtoil_front_anguler.git"
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^12.2.4",
+    "@angular/common": "^12.2.4",
+    "@angular/compiler": "^12.2.4",
+    "@angular/core": "^12.2.4",
+    "@angular/forms": "^12.2.4",
+    "@angular/localize": "^12.2.4",
+    "@angular/platform-browser": "^12.2.4",
+    "@angular/platform-browser-dynamic": "^12.2.4",
+    "@angular/router": "^12.2.4",
+    "@fortawesome/angular-fontawesome": "^0.9.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-regular-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@ng-bootstrap/ng-bootstrap": "^10.0.0",
+    "@types/jquery.prettyphoto": "^3.1.30",
+    "angular-chart.js": "^1.1.1",
+    "angular-count-to": "^0.0.3",
+    "angular-font-awesome": "^3.1.2",
+    "angular-rateit": "^4.0.3",
+    "bootstrap": "^4.5.0",
+    "chosen-js": "^1.8.7",
+    "jquery": "^3.6.0",
+    "linearicons": "^1.0.2",
+    "modernizr": "^3.11.8",
+    "ngx-lightbox": "^2.4.1",
+    "ngx-owl-carousel": "^2.0.7",
+    "ngx-owl-carousel-o": "^6.0.0",
+    "ngx-scrollbar": "^8.0.0",
+    "rxjs": "~6.6.0",
+    "tipso": "^1.0.6",
+    "tslib": "^2.3.1",
+    "zone.js": "~0.11.4"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/khobayer/findtoil_front_anguler/issues"
-  },
-  "homepage": "https://github.com/khobayer/findtoil_front_anguler#readme"
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^12.2.4",
+    "@angular/cli": "^12.2.4",
+    "@angular/compiler-cli": "^12.2.4",
+    "@types/jasmine": "~3.6.0",
+    "@types/jquery": "^3.5.6",
+    "@types/node": "^12.20.23",
+    "jasmine-core": "~3.7.0",
+    "karma": "~6.3.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage": "~2.0.3",
+    "karma-jasmine": "~4.0.0",
+    "karma-jasmine-html-reporter": "^1.5.0",
+    "typescript": "~4.3.2"
+  }
 }
