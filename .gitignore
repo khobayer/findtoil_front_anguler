@@ -45,6 +45,14 @@ testem.log
 Thumbs.db
 
 
+<<<<<<< HEAD
+package.json
+package-lock.json
+=======
 # Package File
 package-lock.json
 package.json
+<<<<<<< HEAD
+=======
+>>>>>>> origin/nayembabu
+>>>>>>> origin/khobayer
