@@ -38,6 +38,7 @@
     "modernizr": "^3.11.8",
     "ngx-lightbox": "^2.4.1",
     "ngx-owl-carousel": "^2.0.7",
+    "ngx-owl-carousel-o": "^6.0.0",
     "ngx-scrollbar": "^8.0.0",
     "rxjs": "~6.6.0",
     "tipso": "^1.0.6",
