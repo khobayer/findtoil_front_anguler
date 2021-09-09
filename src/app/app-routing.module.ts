@@ -5,13 +5,15 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from "./home/home.component";
 import { LoginComponent } from "./login/login.component";
 import { RegisterComponent } from "./register/register.component";
-import { AboutComponent } from "./about/about.component"
+import { AboutComponent } from "./about/about.component";
+import { DashboardProfileComponent } from "./dashboard-profile/dashboard-profile.component"
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent },
-  { path: 'about', component: AboutComponent}
+  { path: 'about', component: AboutComponent},
+  { path: 'profile', component: DashboardProfileComponent}
 ];
 
 @NgModule({
@@ -20,4 +22,4 @@ const routes: Routes = [
 })
 export class AppRoutingModule { }
 
-export const routingComponent = [LoginComponent, RegisterComponent, HomeComponent, AboutComponent]
+export const routingComponent = [LoginComponent, RegisterComponent, HomeComponent, AboutComponent, DashboardProfileComponent]
