@@ -9,6 +9,7 @@
 
 # dependencies
 /node_modules
+node_modules/*
 
 # profiling files
 chrome-profiler-events*.json
@@ -46,6 +47,7 @@ Thumbs.db
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 package.json
 package-lock.json
 =======
@@ -57,4 +59,9 @@ package-lock.json
 package-lock.json
 package.json
 >>>>>>> origin/nayembabu
+>>>>>>> origin/khobayer
+=======
+# Package File
+package-lock.json
+package.json
 >>>>>>> origin/khobayer
