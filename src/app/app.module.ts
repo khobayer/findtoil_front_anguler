@@ -15,7 +15,11 @@ import * as $ from 'jquery';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
+<<<<<<< HEAD
 import { JoblistingComponent } from './joblisting/joblisting.component';
+=======
+import { DashboardProfileComponent } from './dashboard-profile/dashboard-profile.component';
+>>>>>>> origin/taz
 
 
 @NgModule({
@@ -25,7 +29,11 @@ import { JoblistingComponent } from './joblisting/joblisting.component';
     FooterComponent,
     routingComponent,
     AboutComponent,
+<<<<<<< HEAD
     JoblistingComponent
+=======
+    DashboardProfileComponent
+>>>>>>> origin/taz
   ],
   imports: [
     BrowserModule,
