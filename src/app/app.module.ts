@@ -15,6 +15,7 @@ import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
 import { JoblistingComponent } from './joblisting/joblisting.component';
 import { DashboardProfileComponent } from './dashboard-profile/dashboard-profile.component';
+import { JobproposalComponent } from './jobproposal/jobproposal.component';
 import { UserDashboardComponent } from './user-dashboard/user-dashboard.component';
 
 
@@ -27,7 +28,9 @@ import { UserDashboardComponent } from './user-dashboard/user-dashboard.componen
     AboutComponent,
     JoblistingComponent,
     DashboardProfileComponent,
-    UserDashboardComponent
+    UserDashboardComponent,
+    JoblistingComponent,
+    JobproposalComponent
   ],
   imports: [
     BrowserModule,
