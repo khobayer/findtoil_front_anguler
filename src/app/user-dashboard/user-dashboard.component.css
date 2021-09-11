@@ -547,7 +547,7 @@ body{background:#f2f3fa;}
 	z-index: 1;
 	height: 100px;
 	position: absolute;
-	background: url(../images/messages/shadow.png);
+	background: url(../../assets/images/messages/shadow.png);
 }
 .wt-messages .mCSB_inside > .mCSB_container{margin: 0;}
 .wt-messages .mCSB_scrollTools{width: 0;}
@@ -1728,11 +1728,11 @@ table.wt-tablecategories tbody tr td figure img{
 }
 .wt-hireduserimgs:before{
 	left: 0;
-	background: url(../images/shadow-02.png);
+	background: url(../../assets/images/shadow-02.png);
 }
 .wt-hireduserimgs:after{
 	right: 0;
-	background: url(../images/shadow-01.png);
+	background: url(../../assets/images/shadow-01.png);
 }
 .wt-hireduserimgs figure{
 	margin: 0;
@@ -1839,7 +1839,7 @@ table.wt-tablecategories tbody tr td figure img{
     height: 100%;
     position: absolute;
     background-repeat: no-repeat;
-    background-image: url(../images/complete-job.png);
+    background-image: url(../../assets/images/complete-job.png);
 }
 .wt-canceljobholder{
 	width: 100%;

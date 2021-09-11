@@ -15,6 +15,7 @@ import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
 import { JoblistingComponent } from './joblisting/joblisting.component';
 import { DashboardProfileComponent } from './dashboard-profile/dashboard-profile.component';
+import { UserDashboardComponent } from './user-dashboard/user-dashboard.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { DashboardProfileComponent } from './dashboard-profile/dashboard-profile
     routingComponent,
     AboutComponent,
     JoblistingComponent,
-    DashboardProfileComponent
+    DashboardProfileComponent,
+    UserDashboardComponent
   ],
   imports: [
     BrowserModule,
