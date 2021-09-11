@@ -30,38 +30,8 @@
               "src/assets"
             ],
             "styles": [
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/assets/css/jquery-ui.css",
-              "src/assets/css/style.css",
-              "src/assets/css/transitions.css",
-              "src/assets/css/responsive.css",
-              "src/assets/css/basictable.css",
-              "src/assets/css/owl.carousel.min.css",
-              "src/assets/css/scrollbar.css",
-              "src/assets/css/tipso.css",
-              "node_modules/linearicons/dist/web-font/demo-files/demo.css"
             ],
             "scripts": [ 
-              "node_modules/jquery/dist/jquery.min.js",
-              "src/assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js",
-              "src/assets/js/tinymce/tinymce.min4bb5.js",
-              "src/assets/js/chart.js",
-              "src/assets/js/chosen.jquery.js",
-              "src/assets/js/countTo.js",
-              "src/assets/js/jquery-ui.js",
-              "src/assets/js/jquery.sortable.js",
-              "src/assets/js/owl.carousel.min.js",
-              "src/assets/js/readmore.js",
-              "src/assets/js/scrollbar.min.js",
-              "src/assets/js/tilt.jquery.js",
-              "src/assets/js/tipso.js",
-              "src/assets/js/main.js",
-              "src/assets/js/appear.js",
-              "src/assets/js/gmap3.js",
-              "src/assets/js/jquery.basictable.min.js",
-              "src/assets/js/jquery.hoverdir.js",
-              "src/assets/js/jquery-library.js",
-              "src/assets/js/jRate.js"
              ]
           },
           "configurations": {

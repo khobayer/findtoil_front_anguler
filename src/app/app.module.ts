@@ -4,13 +4,11 @@ import { AppRoutingModule, routingComponent } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 /*
-  Import thirt party Package
+*  Import thirt party Package
 */
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import * as $ from 'jquery';
 
 /* 
-  Import Component
+*  Import Component
 */
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
@@ -28,8 +26,7 @@ import { AboutComponent } from './about/about.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule,
-    FontAwesomeModule
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
