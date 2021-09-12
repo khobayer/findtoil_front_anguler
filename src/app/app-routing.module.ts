@@ -7,13 +7,17 @@ import { LoginComponent } from "./login/login.component";
 import { RegisterComponent } from "./register/register.component";
 import { AboutComponent } from "./about/about.component";
 import { JobdetailsComponent} from "./jobdetails/jobdetails.component"
+import { JoblistingComponent } from "./joblisting/joblisting.component"
+import { DashboardProfileComponent } from "./dashboard-profile/dashboard-profile.component"
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent },
   { path: 'about', component: AboutComponent},
-  { path: 'details', component: JobdetailsComponent}
+  { path: 'details', component: JobdetailsComponent},
+  { path: 'job', component: JoblistingComponent},
+  { path: 'profile', component: DashboardProfileComponent}
 ];
 
 @NgModule({
@@ -22,4 +26,5 @@ const routes: Routes = [
 })
 export class AppRoutingModule { }
 
-export const routingComponent = [LoginComponent, RegisterComponent, HomeComponent, AboutComponent, JobdetailsComponent]
+
+export const routingComponent = [LoginComponent, RegisterComponent, HomeComponent, AboutComponent, JoblistingComponent, DashboardProfileComponent]
