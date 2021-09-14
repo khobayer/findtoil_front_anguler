@@ -34,6 +34,4 @@ const routes: Routes = [
 export class AppRoutingModule { }
 
 
-export const routingComponent = [LoginComponent, RegisterComponent, HomeComponent,
-   AboutComponent, JoblistingComponent, DashboardProfileComponent,
-    JobproposalComponent, UserDashboardComponent, JobdetailsComponent, Page404Component]
+export const routingComponent = [LoginComponent, RegisterComponent, HomeComponent, AboutComponent, JoblistingComponent, DashboardProfileComponent, JobproposalComponent, UserDashboardComponent, JobdetailsComponent, Page404Component]
