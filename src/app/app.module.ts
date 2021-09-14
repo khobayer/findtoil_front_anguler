@@ -17,6 +17,7 @@ import { JoblistingComponent } from './joblisting/joblisting.component';
 import { DashboardProfileComponent } from './dashboard-profile/dashboard-profile.component';
 import { JobproposalComponent } from './jobproposal/jobproposal.component';
 import { UserDashboardComponent } from './user-dashboard/user-dashboard.component';
+import { DashboardHelpsupportComponent } from './dashboard-helpsupport/dashboard-helpsupport.component';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { UserDashboardComponent } from './user-dashboard/user-dashboard.componen
     DashboardProfileComponent,
     UserDashboardComponent,
     JoblistingComponent,
-    JobproposalComponent
+    JobproposalComponent,
+    DashboardHelpsupportComponent
   ],
   imports: [
     BrowserModule,
