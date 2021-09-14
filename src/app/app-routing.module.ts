@@ -11,6 +11,7 @@ import { JoblistingComponent } from "./joblisting/joblisting.component";
 import { DashboardProfileComponent } from "./dashboard-profile/dashboard-profile.component";
 import { UserDashboardComponent } from "./user-dashboard/user-dashboard.component";
 import { JobproposalComponent} from "./jobproposal/jobproposal.component";
+import { Page404Component} from "./page404/page404.component"
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -21,7 +22,9 @@ const routes: Routes = [
   { path: 'job', component: JoblistingComponent},
   { path: 'profile', component: DashboardProfileComponent},
   { path: 'user-dashboard', component: UserDashboardComponent},
-  { path: 'jobproposal', component: JobproposalComponent}
+  { path: 'jobproposal', component: JobproposalComponent},
+  { path: 'page404', component: Page404Component}
+
 ];
 
 @NgModule({
@@ -31,4 +34,6 @@ const routes: Routes = [
 export class AppRoutingModule { }
 
 
-export const routingComponent = [LoginComponent, RegisterComponent, HomeComponent, AboutComponent, JoblistingComponent, DashboardProfileComponent, JobproposalComponent, UserDashboardComponent, JobdetailsComponent]
+export const routingComponent = [LoginComponent, RegisterComponent, HomeComponent,
+   AboutComponent, JoblistingComponent, DashboardProfileComponent,
+    JobproposalComponent, UserDashboardComponent, JobdetailsComponent, Page404Component]
