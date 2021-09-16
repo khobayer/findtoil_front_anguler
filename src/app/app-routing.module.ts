@@ -13,7 +13,12 @@ import { UserDashboardComponent } from "./user-dashboard/user-dashboard.componen
 import { JobproposalComponent} from "./jobproposal/jobproposal.component";
 import { Page404Component} from "./page404/page404.component"
 
+
+
 const routes: Routes = [
+  //Wild Card Route for 404 request
+//{ path: '**', pathMatch: 'full', 
+//component: Page404Component },
   { path: '', component: HomeComponent },
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent },
@@ -27,9 +32,7 @@ const routes: Routes = [
 
 ];
 
-//Wild Card Route for 404 request
-{ path: '**', pathMatch: 'full', 
-component: Page404Component },
+
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
