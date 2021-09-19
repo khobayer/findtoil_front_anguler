@@ -14,7 +14,12 @@ import { JobproposalComponent} from "./jobproposal/jobproposal.component";
 import { DashboardHelpsupportComponent} from "./dashboard-helpsupport/dashboard-helpsupport.component";
 import { Page404Component} from "./page404/page404.component"
 
+
+
 const routes: Routes = [
+  //Wild Card Route for 404 request
+//{ path: '**', pathMatch: 'full', 
+//component: Page404Component },
   { path: '', component: HomeComponent },
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent },
@@ -25,9 +30,13 @@ const routes: Routes = [
   { path: 'user-dashboard', component: UserDashboardComponent},
   { path: 'jobproposal', component: JobproposalComponent},
   { path: 'helpsupport', component: DashboardHelpsupportComponent},
-  { path: 'page404', component: Page404Component}
+  { path: 'page404', component: Page404Component},
+  { path: 'jobproposal', component: JobproposalComponent}
+  
 
 ];
+
+
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
@@ -37,3 +46,4 @@ export class AppRoutingModule { }
 
 
 export const routingComponent = [LoginComponent, RegisterComponent, HomeComponent, AboutComponent, JoblistingComponent, DashboardProfileComponent,  JobproposalComponent, UserDashboardComponent, JobdetailsComponent, Page404Component]
+
