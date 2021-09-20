@@ -12,7 +12,8 @@ import { DashboardProfileComponent } from "./dashboard-profile/dashboard-profile
 import { UserDashboardComponent } from "./user-dashboard/user-dashboard.component";
 import { JobproposalComponent} from "./jobproposal/jobproposal.component";
 import { Page404Component} from "./page404/page404.component";
-import { UserlistingComponent} from "./userlisting/userlisting.component"
+import { UserlistingComponent} from "./userlisting/userlisting.component";
+import { AccountsettingsComponent} from "./accountsettings/accountsettings.component"
 
 
 const routes: Routes = [
@@ -28,7 +29,8 @@ const routes: Routes = [
   { path: 'profile', component: DashboardProfileComponent},
   { path: 'user-dashboard', component: UserDashboardComponent},
   { path: 'jobproposal', component: JobproposalComponent},
-  { path: 'userlisting', component: UserlistingComponent}
+  { path: 'userlisting', component: UserlistingComponent},
+  { path: 'accountsettings', component: AccountsettingsComponent}
   
 
 ];
@@ -42,4 +44,4 @@ const routes: Routes = [
 export class AppRoutingModule { }
 
 
-export const routingComponent = [LoginComponent, RegisterComponent, HomeComponent, AboutComponent, JoblistingComponent, DashboardProfileComponent, JobproposalComponent, UserDashboardComponent, JobdetailsComponent, Page404Component, UserlistingComponent]
+export const routingComponent = [LoginComponent, RegisterComponent, HomeComponent, AboutComponent, JoblistingComponent, DashboardProfileComponent, JobproposalComponent, UserDashboardComponent, JobdetailsComponent, Page404Component, UserlistingComponent, AccountsettingsComponent]

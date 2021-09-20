@@ -20,6 +20,7 @@ import { UserDashboardComponent } from './user-dashboard/user-dashboard.componen
 import { DashboardHelpsupportComponent } from './dashboard-helpsupport/dashboard-helpsupport.component';
 import { Page404Component } from './page404/page404.component';
 import { UserlistingComponent } from './userlisting/userlisting.component';
+import { AccountsettingsComponent } from './accountsettings/accountsettings.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { UserlistingComponent } from './userlisting/userlisting.component';
     JoblistingComponent,
     JobproposalComponent,
     Page404Component,
-    UserlistingComponent
+    UserlistingComponent,
+    AccountsettingsComponent
   ],
   imports: [
     BrowserModule,
