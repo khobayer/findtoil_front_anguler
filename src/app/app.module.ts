@@ -37,7 +37,7 @@ import { AccountsettingsComponent } from './accountsettings/accountsettings.comp
     JobproposalComponent,
     Page404Component,
     UserlistingComponent,
-    AccountsettingsComponent
+    DashboardHelpsupportComponent,
   ],
   imports: [
     BrowserModule,
