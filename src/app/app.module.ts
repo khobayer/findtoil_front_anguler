@@ -1,8 +1,10 @@
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from "@angular/common/http";
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule, routingComponent } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
 /*
 *  Import thirt party Package
 */
@@ -37,12 +39,13 @@ import { AccountsettingsComponent } from './accountsettings/accountsettings.comp
     JobproposalComponent,
     Page404Component,
     UserlistingComponent,
-    DashboardHelpsupportComponent,
+    DashboardHelpsupportComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

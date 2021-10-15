@@ -1,8 +1,10 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-
 
 import { faPlay } from "@fortawesome/free-solid-svg-icons";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+
+import { HomeServices } from "../services/home-services.service";
 
 @Component({
   selector: 'app-home',
@@ -11,9 +13,20 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 })
 export class HomeComponent implements OnInit {
 
-  constructor() {  }
+  companyData:any;
+  categoryInfos:any;
 
-  title = 'findtoil'; 
+  constructor(private companyInfo: HomeServices ) {
+    this.companyInfo.getCompanyInfo().subscribe(datas => {
+      this.companyData = datas;
+    })
+
+    this.companyInfo.getCatInfo().subscribe(allData => {
+      this.categoryInfos = allData
+    })
+  }
+
+  title = 'PPPPP'; 
   play = faPlay;
   arrowRight = faArrowRight;
 
