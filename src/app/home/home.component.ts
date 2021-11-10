@@ -17,12 +17,15 @@ export class HomeComponent implements OnInit {
   categoryInfos:any;
 
   constructor(private companyInfo: HomeServices ) {
-    this.companyInfo.getCompanyInfo().subscribe(datas => {
+    this.companyInfo.getCompanyInfo().subscribe((datas) => {
       this.companyData = datas;
+
+      console.log(datas);
     })
 
     this.companyInfo.getCatInfo().subscribe(allData => {
-      this.categoryInfos = allData
+      this.categoryInfos = allData;
+
     })
   }
 
